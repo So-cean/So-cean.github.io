@@ -24,7 +24,7 @@ export default defineUserConfig({
       '/model/': [
         '',
         'model1',
-        'model2'
+        'model2',
       ],
       '/about/': [
         '',
@@ -41,5 +41,17 @@ export default defineUserConfig({
     [ registerComponentsPlugin({ componentsDir: path.resolve(__dirname, './components') })],
 
   ],
+  // bundler: viteBundler({
+  //   viteOptions: {
+  //     css: {
+  //       preprocessorOptions: {
+  //         css: {
+  //           // Import Font Awesome globally
+  //           additionalData: `@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css';`
+  //         }
+  //       }
+  //     }
+  //   }
+  // }),
   bundler: viteBundler(),
 })

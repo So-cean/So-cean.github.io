@@ -16,6 +16,7 @@ The common practice in developing computer-aided diagnosis (CAD) models based on
   Task="Tuberculosis Diagnosis"
   ViT="base-ImageNet"
   Rank=4
+  downloadlink="https://absterzhu.github.io/melo.github.io/static/melo/ChinaSetAllFiles_base_lora_4_4.safetensors"
 />
 
 <Card
@@ -24,6 +25,7 @@ The common practice in developing computer-aided diagnosis (CAD) models based on
   Task="Blood Cell Identification"
   ViT="base-ImageNet"
   Rank=4
+  downloadlink="https://absterzhu.github.io/melo.github.io/static/melo/blood-cells_base_lora_4_4.safetensors"
 />
 
 <Card
@@ -32,6 +34,7 @@ The common practice in developing computer-aided diagnosis (CAD) models based on
   Task="Thoracic Disease Diagnosis"
   ViT="base-ImageNet"
   Rank=4
+  downloadlink="https://absterzhu.github.io/melo.github.io/static/melo/nih_base1_lora_4_4.safetensors"
 />
 
 <Card
@@ -40,6 +43,7 @@ The common practice in developing computer-aided diagnosis (CAD) models based on
   Task="Breast Malignancy Diagnosis"
   ViT="base-ImageNet"
   Rank=4
+  downloadlink="https://absterzhu.github.io/melo.github.io/static/melo/inbreast_base1_lora_4_4.safetensors"
 />
 </div>
 

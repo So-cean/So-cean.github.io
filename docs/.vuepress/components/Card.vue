@@ -2,6 +2,9 @@
 <template>
     <div class="card">
       <img :src="image" alt="model image" class="card-image"/>
+      <a :href="downloadlink" download class="download-link">
+        <i class="fa-solid fa-file-arrow-down"></i>
+      </a>
       <div class="card-content">
         <h3>{{ title }}</h3>
         <p><b>Task:</b>{{ Task }}</p>
@@ -13,6 +16,7 @@
   </template>
   
   <script>
+  import '@fortawesome/fontawesome-free/css/all.min.css';
   export default {
     props: {
       image: String,
@@ -20,6 +24,7 @@
       Task: String,
       ViT: String,
       Rank: Number,
+      downloadlink: String,
     }
   }
   </script>
@@ -38,6 +43,9 @@
   .card:hover {
     transform: scale(1.05);
   }
+  .image-wrapper {
+  position: relative; /* Relative positioning for the image wrapper */
+}
   .card-image {
     width: 100%;
     height: auto;
@@ -45,6 +53,24 @@
   .card-content {
     padding: 16px;
   }
+  
+  .download-link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: rgb(51, 160, 233);
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 50%; /* Optional: rounded background */
+  display: flex; /* 使用 flexbox 来居中对齐图标 */
+  align-items: center; /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+  /* background-color: rgba(255, 255, 255, 0.8);  */
+}
 
+.download-link:hover {
+  color: rgb(255, 255, 255);
+}
   </style>
   
