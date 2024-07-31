@@ -2,7 +2,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
-import { path } from '@vuepress/utils'
+import { path } from 'vuepress/utils'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 
