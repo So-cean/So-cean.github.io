@@ -1,1 +1,0 @@
-import{_ as t,o as n,c as s,a as e,t as a}from"./app-CBKtWJfr.js";const r={data(){return{message:"Hello from MyComponent!"}}},c=e("h2",null,"这是一个自定义的 Vue 组件",-1);function l(p,_,m,u,o,i){return n(),s("div",null,[c,e("p",null,a(o.message),1)])}const d=t(r,[["render",l],["__file","MyComponent.vue"]]);export{d as default};
